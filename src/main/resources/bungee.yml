@@ -1,0 +1,5 @@
+name: FishyMotd
+version: ${project.version}
+main: xyz.bamaygay.motd.BungeePlugin
+description: Skidded Motd plugin for handsome people
+author: HungNguyenAZ
