@@ -1,4 +1,4 @@
-package xyz.bamaygay.motd.listeners;
+package xyz.bamaygay.motd.bungee.listeners;
 
 import net.md_5.bungee.api.ServerPing;
 import net.md_5.bungee.api.chat.TextComponent;
@@ -7,7 +7,7 @@ import net.md_5.bungee.api.plugin.Cancellable;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
 
-import xyz.bamaygay.motd.variables.Variables;
+import xyz.bamaygay.motd.bungee.variables.Variables;
 
 import java.util.UUID;
 

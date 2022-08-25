@@ -1,4 +1,4 @@
-package xyz.bamaygay.motd.utils;
+package xyz.bamaygay.motd.bungee.utils;
 
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;

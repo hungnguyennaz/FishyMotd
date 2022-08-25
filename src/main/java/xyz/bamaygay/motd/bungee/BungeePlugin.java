@@ -1,14 +1,14 @@
-package xyz.bamaygay.motd;
+package xyz.bamaygay.motd.bungee;
 
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.plugin.PluginManager;
 
-import xyz.bamaygay.motd.handler.CommandHandler;
-import xyz.bamaygay.motd.listeners.ProxyPingListener;
-import xyz.bamaygay.motd.utils.ConfigUtil;
-import xyz.bamaygay.motd.variables.Messages;
-import xyz.bamaygay.motd.variables.Variables;
+import xyz.bamaygay.motd.bungee.handler.CommandHandler;
+import xyz.bamaygay.motd.bungee.listeners.ProxyPingListener;
+import xyz.bamaygay.motd.bungee.utils.ConfigUtil;
+import xyz.bamaygay.motd.bungee.variables.Messages;
+import xyz.bamaygay.motd.bungee.variables.Variables;
 
 import java.io.File;
 

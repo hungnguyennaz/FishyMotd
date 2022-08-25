@@ -1,11 +1,11 @@
-package xyz.bamaygay.motd.variables;
+package xyz.bamaygay.motd.bungee.variables;
 
 import java.io.File;
 import java.util.Collection;
 import java.util.HashSet;
 
-import xyz.bamaygay.motd.BungeePlugin;
-import xyz.bamaygay.motd.utils.ConfigUtil;
+import xyz.bamaygay.motd.bungee.BungeePlugin;
+import xyz.bamaygay.motd.bungee.utils.ConfigUtil;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.config.Configuration;
 

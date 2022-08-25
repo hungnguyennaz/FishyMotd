@@ -1,8 +1,8 @@
-package xyz.bamaygay.motd.handler;
+package xyz.bamaygay.motd.bungee.handler;
 
-import xyz.bamaygay.motd.BungeePlugin;
-import xyz.bamaygay.motd.variables.Messages;
-import xyz.bamaygay.motd.variables.Variables;
+import xyz.bamaygay.motd.bungee.BungeePlugin;
+import xyz.bamaygay.motd.bungee.variables.Messages;
+import xyz.bamaygay.motd.bungee.variables.Variables;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.plugin.Command;
