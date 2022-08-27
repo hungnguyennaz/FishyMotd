@@ -1,7 +1,7 @@
 messages:
   usage: |-
     &c&lFishyMOTD &a&lCommands List:
-    &b/motd reload: Reload the MOTD
+    &b/fishymotd reload: Reload the MOTD
   reload: "&aConfiguration file has been reloaded!"
-  unknown-command: "&cUnknow command!"
+  unknown-command: "&cUnknown command!"
   no-permission: "&cYOU DON'T HAVE PERMISSION HAHA LOSER！"
