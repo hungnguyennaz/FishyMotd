@@ -23,7 +23,7 @@ public class CommandHandler extends Command {
 			if (args.length < 1 || args[0].equalsIgnoreCase("help"))
 				commandSender.sendMessage(new TextComponent(Messages.USAGE));
 			else if (args[0].equalsIgnoreCase("reload")) {
-				if (commandSender.hasPermission("fishymotd.command.motd")) {
+				if (commandSender.hasPermission("fishymotd.admin")) {
 				variables.reloadConfig();
 				messages.reload();
 				commandSender.sendMessage(new TextComponent(Messages.RELOAD));
