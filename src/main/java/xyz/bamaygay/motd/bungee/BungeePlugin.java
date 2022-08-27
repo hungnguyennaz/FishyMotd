@@ -30,6 +30,6 @@ public class BungeePlugin extends Plugin {
 		final PluginManager pluginManager = proxy.getPluginManager();
 
 		pluginManager.registerListener(this, new ProxyPingListener(variables));
-		pluginManager.registerCommand(this, new CommandHandler("motd", "fishymotd.command.motd", variables, messages, this));
+		pluginManager.registerCommand(this, new CommandHandler("fishymotd", "fishymotd.admin", variables, messages, this));
 	}
 }
